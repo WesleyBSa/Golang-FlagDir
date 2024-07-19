@@ -12,7 +12,7 @@ GoDirManager is a simple tool in Go that allows creating directories with user-d
 
 ## Technologies Used
 
-- ![Go Logo](https://golang.org/lib/godoc/images/go-logo-blue.svg) [Go](https://golang.org/)
+- Golang
 
 ## How to Use
 
