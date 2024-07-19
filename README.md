@@ -1,17 +1,18 @@
+
 # Golang-FlagDir
 
-Golang-FlagDir is a simple tool written in Go that allows creating directories with names based on user-defined flags provided through the command line.
+![Go Gopher](https://golang.org/doc/gopher/frontpage.png)
 
-![Go Logo](https://golang.org/lib/godoc/images/go-logo-blue.svg) ![Go Gopher](https://golang.org/lib/godoc/images/gopher.png)
+GoDirManager is a simple tool in Go that allows creating directories with user-defined names using command-line flags. Ideal for automating folder organization with dynamic names.
 
 ## Features
 
-- Create directories with names specified by the user via command-line flags.
-- Easy-to-use interface.
+- Create directories with user-defined names using command-line flags.
+- Easy to use via command-line interface.
 
 ## Technologies Used
 
-- [Go](https://golang.org/) ![Go Logo](https://golang.org/lib/godoc/images/go-logo-blue.svg)
+- ![Go Logo](https://golang.org/lib/godoc/images/go-logo-blue.svg) [Go](https://golang.org/)
 
 ## How to Use
 
@@ -19,13 +20,13 @@ Golang-FlagDir is a simple tool written in Go that allows creating directories w
 
 - [Go](https://golang.org/dl/) installed on your machine.
 
-### Steps to Build and Run
+### Steps to Compile and Run
 
 1. Clone this repository:
 
     ```sh
     git clone https://github.com/WesleyBSa/Golang-FlagDir.git
-    cd GoDirManager
+    cd Golang-flagDir
     ```
 
 2. Initialize the Go module:
@@ -34,19 +35,37 @@ Golang-FlagDir is a simple tool written in Go that allows creating directories w
     go mod init GoDirManager
     ```
 
-3. Build the program:
+3. Compile the program:
 
     ```sh
-    go build -o godirmanager.exe
+    go build -o golangflagdir.exe
     ```
 
 4. Run the program:
 
     ```sh
-    .\godirmanager.exe -channelName "YourDirectoryName"
+    .\golangflagdir.exe -channelName "ChannelName"
     ```
 
-## Example Usage
+## Usage Example
 
 ```sh
-.\godirmanager.exe -channelName "TestChannel"
+.\golangflagdir.exe -channelName "TestChannel"
+```
+
+This command will create a directory named "TestChannel".
+
+## Contribution
+
+Feel free to open issues or submit pull requests with improvements and fixes. All contributions are welcome!
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+Made with ❤️ by [Your Name](https://github.com/WesleyBSa)
+```
+
+Make sure to replace `your-username` and `Your Name` with your actual GitHub username and your name. This version should properly display the Go gopher image. If you encounter any other issues or need further adjustments, feel free to let me know!
