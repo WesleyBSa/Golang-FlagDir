@@ -68,4 +68,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 Made with ❤️ by [Your Name](https://github.com/WesleyBSa)
 ```
 
-Make sure to replace `your-username` and `Your Name` with your actual GitHub username and your name. This version should properly display the Go gopher image. If you encounter any other issues or need further adjustments, feel free to let me know!
